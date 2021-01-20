@@ -7,10 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TaskJDBC" />
+        <module name="CoreTaskTemplate" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="TaskJDBC" target="7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
